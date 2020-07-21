@@ -1,3 +1,4 @@
+#coding:utf-8
 WEBHOOKS = [
     # 请在这里添加DISCORD的WEBHOOK URL, 例如
     # "https://discordapp.com/api/webhooks/732416836133453906/pCh90z97qsfK48Dboe9V8P2zJKHIHrxWCT_5CVw_WNLBAZl5Qwy62QpPV_s3QSSabHXV",
