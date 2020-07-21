@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding: utf-8
 import os
 import time
 import sqlite3
@@ -25,7 +25,7 @@ def main(first_time_run=False):
         c.execute('SELECT count(*) from matches;')
         db_size = c.fetchone()
         if db_size[0] == 0:
-            choice = raw_input("本地数据库没有任何记录, 确定将所有ID近期20场比赛记录一次性发送么?(Y/N): ")
+            choice = input("本地数据库没有任何记录, 确定将所有ID近期20场比赛记录一次性发送么?(Y/N): ")
             if choice == 'N' or choice == 'n':
                 first_time_run = True
 
