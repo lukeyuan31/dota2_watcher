@@ -1,5 +1,6 @@
 # coding: utf-8
 WEBHOOKS = [
+    https://discord.com/api/webhooks/822357360772907028/hLKhbFT0FEVwjgSHlwkShRfBAX_og4f2NCk8o8f9RzRJ-U_CySFE9E543pq4B9L2Blfd
     # 请在这里添加DISCORD的WEBHOOK URL, 例如
     # "https://discordapp.com/api/webhooks/732416836133453906/pCh90z97qsfK48Dboe9V8P2zJKHIHrxWCT_5CVw_WNLBAZl5Qwy62QpPV_s3QSSabHXV",
 ]
