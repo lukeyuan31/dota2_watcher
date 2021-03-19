@@ -1,4 +1,4 @@
-# coding: utf-8
+# coding=utf-8
 import os
 import time
 import sqlite3
@@ -61,7 +61,7 @@ def main(first_time_run=False):
         print('task completed {}, wait time: {}, next time {}\r'.format(
             time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),
             wait_time,
-            time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time() + wait_time))), end='')
+            time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time() + wait_time))))
         if first_time_run:
             first_time_run = False
         time.sleep(wait_time)
